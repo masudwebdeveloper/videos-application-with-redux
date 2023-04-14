@@ -31,7 +31,7 @@ const Video = () => {
 
           <VideoDescription video={video} />
         </div>
-        <RelatedVideoList id={id} tags={tags} />
+        <RelatedVideoList currentVideoId={id} tags={tags} />
       </div>
     );
   return (
